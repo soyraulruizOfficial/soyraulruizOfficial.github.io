@@ -1,0 +1,290 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cuadrado {
+    width: 100%;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: 5px 5px 20px 7px rgba(0, 0, 0, 0.712); */
+
+
+}
+
+.titulo {
+    color: black;
+    font-size: 3em;
+    font-family: 'Fredoka One', cursive;
+}
+
+.cuerpo {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.portada {
+    margin-top: 60px;
+    width: 75%;
+    height: 300px;
+
+    border-radius: 15px;
+}
+
+.portada_img {
+    width: 100%;
+    height: 50vh;
+    border-radius: 15px;
+    background-size: cover;
+
+
+}
+
+.perfil_img {
+    border-radius: 100px;
+}
+
+a.logo {
+    margin-left: 43%;
+    margin-top: -11%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: rgb(128, 10, 128);
+
+}
+
+.descripcion {
+    margin-top: 15px;
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+
+}
+
+.title {
+    font-size: 2em;
+
+    color: rgb(7, 7, 7);
+    font-family: 'Fredoka One', cursive;
+}
+
+.celular {
+    font-size: 0.9em;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+
+    color: #667781;
+}
+
+.tienda {
+    font-size: 0.8em;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+
+    color: #667781;
+}
+
+.dire {
+    font-size: 0.8em;
+    font-family: 'Comfortaa', cursive;
+
+    color: #667781;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 12px;
+    width: 40%;
+    height: 8vh;
+    background: #00725d;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00997D;
+}
+
+.contenedor_cards {
+    width: 100%;
+    height: 150vh;
+    background: #dee2e7;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.card_acticulos {
+    margin-top: -100px;
+    width: 40%;
+    height: 120vh;
+    background: white;
+    float: left;
+    margin-right: 30px;
+    border-radius: 20px;
+
+
+}
+
+.catalogo {
+    width: 40%;
+    color: black;
+    font-size: 1.5em;
+    margin-top: 15px;
+    margin-left: 25px;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+
+
+}
+
+.articulos {
+    width: 28%;
+    height: 25vh;
+    /* background: green; */
+    margin-top: 20px;
+    margin-left: 22px;
+    float: left;
+    border-radius: 20px;
+
+
+}
+
+.art_img {
+    width: 100%;
+    height: 25vh;
+    border-radius: 15px;
+
+}
+
+.contactos {
+    margin-top: -100px;
+    width: 40%;
+    height: 120vh;
+    background: white;
+    float: left;
+    border-radius: 20px;
+    color: black;
+
+
+
+}
+
+.info_neg {
+    width: 100%;
+    color: black;
+    font-size: 1.5em;
+    margin-top: 15px;
+    margin-left: 25px;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.des_neg {
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 0.9em;
+    text-align: start;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+}
+
+.map {
+
+    width: 90%;
+    height: 40vh;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+
+}
+
+.dire2 {
+    margin-top: 20px;
+    margin-left: 25px;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.enlaces {
+    color: rgb(27, 91, 230);
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-left: 25px;
+
+}
+
+.redes {
+    width: 90%;
+    height: 12vh;
+    background: #f7f7f7;
+    margin: auto;
+    margin-top: 16px;
+    border-radius: 15px;
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.redes2 {
+    width: 90%;
+    height: 12vh;
+    background: #f7f7f7;
+    margin: auto;
+    border-radius: 15px;
+    display: flex;
+    transform: translate(10px, 50px);
+    align-items: center;
+}
+
+.fb {
+    width: 40px;
+    height: 40px;
+    margin-left: 50px;
+}
+
+.logo2 {
+    display: flex;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+
+}
+
+footer {
+    display: flex;
+    margin-top: -90px;
+    width: 100%;
+    height: 15vh;
+    background: black;
+
+}
+
+p.footer {
+    color: white;
+
+    margin: auto;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Comfortaa', cursive;
+
+}
